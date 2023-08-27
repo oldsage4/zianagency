@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>job seekers</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    #header {
+      width: 100%;
+      height: 100vh;
+      background-image: url(confrence\ room\ 2.jpg);
+      background-size: cover;
+      background-position: center;
+      padding-top: 70px; /* Add padding to make space for the fixed menu bar */
+      box-sizing: border-box; /* Include padding in the height calculation */
+    }
+
+    .header-text h1{
+      color: ;
+    }
+    .header-text p {
+      color: white; /* Set text color to white */
+    }
+    #services {
+    padding: 30px 0;
+  }
+  
+  .services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+  }
+  .services-list div{
+  background-color: #262626;
+  padding: 40px;
+  font-size: 13px;
+  font-weight: 300;
+  border-radius: 10px;
+  transition: background 0.5s, transform 0.5s;
+  }
+  .services-list div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+  .services-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  .services-list div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  .services-list div:hover{
+    background-color: blue;
+    transform: translateY(-10px);
+  }
+  <!-- portfolio --*/
+   #portfolio{
+    padding: 50px 0;
+   }
+   .work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+   }
+   .work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+   }
+   .work img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+   }
+   .layer {
+    width: 100%;
+    height: 0;
+    background-color: linear-gradient(rgba(0,0,0,0.6), blue);
+    border-radius: 10px;
+    left: 0;
+    bottom: 0;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 10px;
+    transition: 0.5s;
+  }
+  .layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .layer a{
+    margin-top: 20px;
+    color: blue;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .work:hover img{
+    transform: scale(1.1);
+  }
+  .work:hover .layer{
+    height: 100%;
+  }
+  .btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid blue;
+    padding:  14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transform: background 0.5s;
+  }
+  .btn:hover{
+    background-color: blue;
+  }
+  #services .services-list div p {
+      color: white;}
+  </style>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <div class="menu-bar">
+          <img src="2D on transparent background.png" width="140" alt="Logo">
+          
+     <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="jobseekers.html">Job Seekers</a></li>
+          <li><a href="employers.html">Employer</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></div>
+    </nav>
+
+      
+        </div>
+      </nav>
+      <div class="header-text">
+        <br>   <br>   <br> 
+        <h1>About Zian Reqruitment and <br>consultancy Agency Limited
+         </h1>
+        <p>Unlocking Success: Our job agency offers tailored job placements, streamlined visa applications, scholarship opportunities, and personalized university placements. Navigate your journey with our expert team and embark on a path to a brighter future.</p>
+      </div>
+       <a href="mailto:zianagency@email.com" class="btn">Employer</a>
+    </div>
+  </div>
+  <div id="services">
+  <div class="container">
+      <h1 class="sub-title">Our Services</h1>
+      <div class="services-list">
+          <div>
+              <i class="fa-solid fa-code"></i>
+              <h2>
+                  Company Vision</h2>
+              <p>
+
+                 
+                  Company Vision
+                  Zian Recruitment and Consultancy Agency Limited aims at elimination of poverty by reducing unemployment rates through individual and corporate responsibilities and utilizing the locally and internationally available resources/opportunities. The company looks forward to becoming the river between the job seekers and the employers in Kenya and beyond</p>
+         
+          </div>
+          <div>
+              <i class="fa-thin fa-crop"></i>
+              <h2>
+                  Company Mission</h2>
+              <p>
+                  The company promotes sustainable environmentally sound and cost effective practices in managing job allocations as a resource and connecting job seekers with employers, innovating technology, customer services consultancy and education. Zian Recruitment and Consultancy Agency Limited aims at improving employability rates globally and locally for the economic benefits of the community. The company can also generate tax revenue while fully operating.</p>
+         
+          </div>
+          <div>
+              <i class="fa-brands fa-adn"></i>
+              <h2>
+                  OUR GOAL</h2>
+              <p>
+                  We match qualified candidates with international companies looking to fill work positions</p>
+         
+          </div>
+      </div>
+  </div> <br>
+</div>
+</div>
+
+  <!--footert-->
+<div class="contact_us">
+  <div class="responsive-container-block container">
+    <form action="https://formsubmit.co/zianagency@email.com" method="post" class="form-box">
+      <p class="text-blk contact-head">
+        Get in touch
+      </p>
+      <p class="text-blk contact-subhead">
+        Feel free to reach out to us! We'd love to hear from you and assist you on your journey. Get in touch today for personalized support and expert guidance
+      </p>
+      <div class="container-block form-wrapper">
+        <div class="responsive-container-block">
+          <div class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-6" id="i10mt-4">
+            <p class="text-blk input-title">
+              First Name
+            </p>
+            <input class="input" id="ijowk-4" name="FirstName">
+          </div>
+          <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+            <p class="text-blk input-title">
+              Last Name
+            </p>
+            <input class="input" id="indfi-3" name="Last Name">
+          </div>
+          <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+            <p class="text-blk input-title">
+              Email
+            </p>
+            <input class="input" id="ipmgh-4" name="Email">
+          </div>
+          <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+            <p class="text-blk input-title">
+              Phone No.
+            </p>
+            <input class="input" id="imgis-4" name="PhoneNumber">
+          </div>
+          <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i634i-4">
+            <p class="text-blk input-title">
+              Message
+            </p>
+            <textarea class="textinput" id="i5vyy-4" placeholder="Write your message..."></textarea>
+          </div>
+        </div>
+        <button class="submit-btn">
+          Send Message
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>
